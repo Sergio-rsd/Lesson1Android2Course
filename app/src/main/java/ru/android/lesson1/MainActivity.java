@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_main);
-        setContentView(R.layout.activity_next);
+        setContentView(R.layout.activity_main);
 
-/*        nameTV = findViewById(R.id.name_text_view);
+        nameTV = findViewById(R.id.name_text_view);
         changeNameButton = findViewById(R.id.change_name_button);
         changeNameButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +44,6 @@ public class MainActivity extends AppCompatActivity {
                         Toast.LENGTH_LONG
                 ).show();
             }
-        });*/
+        });
     }
 }
